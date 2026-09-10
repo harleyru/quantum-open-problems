@@ -1,0 +1,15 @@
+{
+  "n": 2,
+  "u": 0.5,
+  "status": "optimal",
+  "accepted": true,
+  "max_equation_residual": 1.2202461263655096e-12,
+  "min_eigenvalue": -2.232067862319713e-10,
+  "max_hermiticity_residual": 0.0,
+  "objective": 2.299450135602381,
+  "gauge_recomputed": 2.2994501359455257,
+  "output_sld_qfi": 2.2994501359455257,
+  "output_trace": 0.9999999999998993,
+  "gauge_stationarity": 1.0573912111957323e-15,
+  "hypograph_min_eigenvalue": 1.4242149689572594e-10
+}

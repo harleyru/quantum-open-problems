@@ -1,0 +1,7 @@
+{
+  "status": "optimal",
+  "rigorous": false,
+  "objective": 2.29945013771398,
+  "min_slack_eigenvalue": -6.6134481964508285e-12,
+  "terminal_min_eigenvalue": -1.3426635799582538e-11
+}

@@ -1,0 +1,58 @@
+{
+  "n": 3,
+  "maps": {
+    "0": {
+      "rank": 1,
+      "tp_residual": 1.1102230246251565e-16,
+      "polar_change": 5.551115123125783e-17,
+      "singular_distance_to_partial_isometry": 0.0
+    },
+    "1": {
+      "rank": 4,
+      "tp_residual": 6.661338147750939e-16,
+      "polar_change": 5.600750833688948e-16,
+      "singular_distance_to_partial_isometry": 4.440892098500626e-16
+    },
+    "2": {
+      "rank": 4,
+      "tp_residual": 4.440892098500626e-16,
+      "polar_change": 5.58319201210346e-16,
+      "singular_distance_to_partial_isometry": 6.661338147750939e-16
+    },
+    "4": {
+      "rank": 4,
+      "tp_residual": 1.1102230246251565e-15,
+      "polar_change": 6.674608935016201e-16,
+      "singular_distance_to_partial_isometry": 4.440892098500626e-16
+    },
+    "3": {
+      "rank": 16,
+      "tp_residual": 8.88178480197921e-16,
+      "polar_change": 1.3877801463696397e-13,
+      "singular_distance_to_partial_isometry": 5.376810108259633e-13
+    },
+    "5": {
+      "rank": 16,
+      "tp_residual": 1.1102230252409524e-15,
+      "polar_change": 2.307598607152048e-13,
+      "singular_distance_to_partial_isometry": 9.117151478221786e-13
+    },
+    "6": {
+      "rank": 16,
+      "tp_residual": 1.332267629551406e-15,
+      "polar_change": 7.792103502769913e-13,
+      "singular_distance_to_partial_isometry": 3.106848112111038e-12
+    },
+    "7": {
+      "rank": 64,
+      "tp_residual": 1.1102230246251565e-15,
+      "polar_change": 8.57980353573042e-13,
+      "singular_distance_to_partial_isometry": 2.830402578979374e-12
+    }
+  },
+  "replayed_principal_output_difference": 2.667304925549488e-15,
+  "replayed_principal_derivative_difference": 7.63988504145816e-15,
+  "principal_output_trace": 1.0000000000000009,
+  "principal_output_qfi": 4.737052445071329,
+  "verification_level": "numerical CPTP completion; principal-path replay"
+}

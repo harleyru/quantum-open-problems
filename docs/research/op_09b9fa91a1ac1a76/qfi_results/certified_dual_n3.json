@@ -1,0 +1,61 @@
+{
+  "verified": true,
+  "n": 3,
+  "precision": 50,
+  "repair_margin": "0.000001",
+  "upper_bound_rational": "4737326635619153/1000000000000000",
+  "checks": {
+    "(frozenset(), 0)": [
+      true,
+      2
+    ],
+    "(frozenset(), 1)": [
+      true,
+      2
+    ],
+    "(frozenset(), 2)": [
+      true,
+      2
+    ],
+    "(frozenset({0}), 1)": [
+      true,
+      8
+    ],
+    "(frozenset({0}), 2)": [
+      true,
+      8
+    ],
+    "(frozenset({1}), 0)": [
+      true,
+      8
+    ],
+    "(frozenset({1}), 2)": [
+      true,
+      8
+    ],
+    "(frozenset({2}), 0)": [
+      true,
+      8
+    ],
+    "(frozenset({2}), 1)": [
+      true,
+      8
+    ],
+    "(frozenset({0, 1}), 2)": [
+      true,
+      32
+    ],
+    "(frozenset({0, 2}), 1)": [
+      true,
+      32
+    ],
+    "(frozenset({1, 2}), 0)": [
+      true,
+      32
+    ],
+    "terminal": [
+      true,
+      64
+    ]
+  }
+}

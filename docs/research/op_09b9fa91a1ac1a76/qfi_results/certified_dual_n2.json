@@ -1,0 +1,29 @@
+{
+  "verified": true,
+  "n": 2,
+  "precision": 50,
+  "repair_margin": "0.000001",
+  "upper_bound_rational": "114972856885699/50000000000000",
+  "checks": {
+    "(frozenset(), 0)": [
+      true,
+      2
+    ],
+    "(frozenset(), 1)": [
+      true,
+      2
+    ],
+    "(frozenset({0}), 1)": [
+      true,
+      8
+    ],
+    "(frozenset({1}), 0)": [
+      true,
+      8
+    ],
+    "terminal": [
+      true,
+      16
+    ]
+  }
+}

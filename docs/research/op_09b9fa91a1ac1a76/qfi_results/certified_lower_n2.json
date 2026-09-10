@@ -1,0 +1,36 @@
+{
+  "verified": true,
+  "n": 2,
+  "lower_bound_rational": "22991/10000",
+  "mixing": "1/10000",
+  "precision": 50,
+  "feasibility": {
+    "verified": true,
+    "checks": {
+      "(frozenset(), 0)": [
+        true,
+        2
+      ],
+      "(frozenset(), 1)": [
+        true,
+        2
+      ],
+      "(frozenset({0}), 1)": [
+        true,
+        8
+      ],
+      "(frozenset({1}), 0)": [
+        true,
+        8
+      ],
+      "process": [
+        true,
+        16
+      ]
+    }
+  },
+  "hypograph_check": [
+    true,
+    17
+  ]
+}

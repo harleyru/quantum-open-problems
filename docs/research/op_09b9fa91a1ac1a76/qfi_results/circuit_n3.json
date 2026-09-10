@@ -1,0 +1,210 @@
+{
+  "n": 3,
+  "operations": {
+    "[]": {
+      "input_dimension": 1,
+      "output_dimension": 12,
+      "effective_rank": 1,
+      "link_residual": 0.0,
+      "isometry_residual": 1.1102230246251565e-16
+    },
+    "[0]": {
+      "input_dimension": 4,
+      "output_dimension": 32,
+      "effective_rank": 4,
+      "link_residual": 5.635038541906163e-17,
+      "isometry_residual": 1.4435528843940012e-15
+    },
+    "[1]": {
+      "input_dimension": 4,
+      "output_dimension": 32,
+      "effective_rank": 4,
+      "link_residual": 1.1102230246251565e-16,
+      "isometry_residual": 1.6655658173411746e-15
+    },
+    "[2]": {
+      "input_dimension": 4,
+      "output_dimension": 32,
+      "effective_rank": 4,
+      "link_residual": 1.1102230246251565e-16,
+      "isometry_residual": 1.4497902912192309e-15
+    },
+    "[0, 1]": {
+      "input_dimension": 32,
+      "output_dimension": 64,
+      "effective_rank": 16,
+      "link_residual": 3.633009790294375e-16,
+      "isometry_residual": 2.681188604469753e-13
+    },
+    "[0, 2]": {
+      "input_dimension": 32,
+      "output_dimension": 64,
+      "effective_rank": 16,
+      "link_residual": 3.380624300263595e-16,
+      "isometry_residual": 4.534705944081452e-13
+    },
+    "[1, 2]": {
+      "input_dimension": 32,
+      "output_dimension": 64,
+      "effective_rank": 16,
+      "link_residual": 4.989064716909297e-15,
+      "isometry_residual": 1.5356049765102853e-12
+    },
+    "[0, 1, 2]": {
+      "input_dimension": 192,
+      "output_dimension": 64,
+      "effective_rank": 64,
+      "link_residual": 1.3322676295501878e-15,
+      "isometry_residual": 1.3935522595835665e-12
+    }
+  },
+  "output_residual": 1.4988010832439613e-15,
+  "derivative_residual": 9.489189466358082e-16,
+  "output_trace": 1.0,
+  "qfi": 4.737052445071347,
+  "verification_level": "numerical effective-support realization",
+  "layout": {
+    "0": {
+      "incoming": [],
+      "outgoing": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "1": {
+      "incoming": [
+        [
+          0,
+          4
+        ]
+      ],
+      "outgoing": [
+        [
+          1,
+          16
+        ],
+        [
+          2,
+          16
+        ]
+      ]
+    },
+    "2": {
+      "incoming": [
+        [
+          1,
+          4
+        ]
+      ],
+      "outgoing": [
+        [
+          0,
+          16
+        ],
+        [
+          2,
+          16
+        ]
+      ]
+    },
+    "4": {
+      "incoming": [
+        [
+          2,
+          4
+        ]
+      ],
+      "outgoing": [
+        [
+          0,
+          16
+        ],
+        [
+          1,
+          16
+        ]
+      ]
+    },
+    "3": {
+      "incoming": [
+        [
+          0,
+          16
+        ],
+        [
+          1,
+          16
+        ]
+      ],
+      "outgoing": [
+        [
+          2,
+          64
+        ]
+      ]
+    },
+    "5": {
+      "incoming": [
+        [
+          0,
+          16
+        ],
+        [
+          2,
+          16
+        ]
+      ],
+      "outgoing": [
+        [
+          1,
+          64
+        ]
+      ]
+    },
+    "6": {
+      "incoming": [
+        [
+          1,
+          16
+        ],
+        [
+          2,
+          16
+        ]
+      ],
+      "outgoing": [
+        [
+          0,
+          64
+        ]
+      ]
+    },
+    "7": {
+      "incoming": [
+        [
+          0,
+          64
+        ],
+        [
+          1,
+          64
+        ],
+        [
+          2,
+          64
+        ]
+      ],
+      "outgoing": []
+    }
+  }
+}

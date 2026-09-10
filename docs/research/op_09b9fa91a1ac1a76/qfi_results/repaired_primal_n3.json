@@ -1,0 +1,61 @@
+{
+  "verified": true,
+  "checks": {
+    "(frozenset(), 0)": [
+      true,
+      2
+    ],
+    "(frozenset(), 1)": [
+      true,
+      2
+    ],
+    "(frozenset(), 2)": [
+      true,
+      2
+    ],
+    "(frozenset({0}), 1)": [
+      true,
+      8
+    ],
+    "(frozenset({0}), 2)": [
+      true,
+      8
+    ],
+    "(frozenset({1}), 0)": [
+      true,
+      8
+    ],
+    "(frozenset({1}), 2)": [
+      true,
+      8
+    ],
+    "(frozenset({2}), 0)": [
+      true,
+      8
+    ],
+    "(frozenset({2}), 1)": [
+      true,
+      8
+    ],
+    "(frozenset({0, 1}), 2)": [
+      true,
+      32
+    ],
+    "(frozenset({0, 2}), 1)": [
+      true,
+      32
+    ],
+    "(frozenset({1, 2}), 0)": [
+      true,
+      32
+    ],
+    "process": [
+      true,
+      64
+    ]
+  },
+  "n": 3,
+  "mixing": "1/10000",
+  "exact_flow": true,
+  "precision": 50
+}

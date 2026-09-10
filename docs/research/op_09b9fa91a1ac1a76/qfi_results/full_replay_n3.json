@@ -1,0 +1,10 @@
+{
+  "n": 3,
+  "all_completion_branches": true,
+  "output_trace": 1.0000000000000007,
+  "output_min_eigenvalue": -1.2511364421258284e-16,
+  "principal_difference": 8.326680611166272e-17,
+  "derivative_difference": 5.551115123125783e-17,
+  "qfi": 4.737052445071333,
+  "verification_level": "floating-point full-branch replay, not interval error bound"
+}
